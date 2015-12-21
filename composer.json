@@ -8,5 +8,8 @@
   "autoload": {
     "psr-0": { "Timbroder\\Bundle\\AlgoliaBundle": "" }
   },
-  "target-dir": "Timbroder/Bundle/AlgoliaBundle"
+  "target-dir": "Timbroder/Bundle/AlgoliaBundle",
+  "require": {
+    "algolia/algoliasearch-client-php": "1.5.*"
+  }
 }
